@@ -20,10 +20,10 @@
             labels: true,
             labelsOptions: {
                 lang: {
-                    days: 'Days',
-                    hours: 'Hours',
-                    minutes: 'Minutes',
-                    seconds: 'Seconds'
+                    days: 'Dias',
+                    hours: 'Horas',
+                    minutes: 'Minutos',
+                    seconds: 'Segundos'
                 },
                 style: 'font-size: 0.5em;'
             },
