@@ -26,10 +26,10 @@
 		var date = $('#normal-countdown').data('date');
 		$('#normal-countdown').countdown(date, function(event) {
 			var $this = $(this).html(event.strftime(''
-				+ '<div class="time-sec"><h3 class="main-time">%D</h3> <span>Days</span></div>'
-				+ '<div class="time-sec"><h3 class="main-time">%H</h3> <span>Hours</span></div>'
-				+ '<div class="time-sec"><h3 class="main-time">%M</h3> <span>Mins</span></div>'
-				+ '<div class="time-sec"><h3 class="main-time">%S</h3> <span>Sec</span></div>'));
+				+ '<div class="time-sec"><h3 class="main-time">%D</h3> <span>Dias</span></div>'
+				+ '<div class="time-sec"><h3 class="main-time">%H</h3> <span>Horas</span></div>'
+				+ '<div class="time-sec"><h3 class="main-time">%M</h3> <span>Min</span></div>'
+				+ '<div class="time-sec"><h3 class="main-time">%S</h3> <span>Seg</span></div>'));
 		});
 	}
 	
@@ -75,10 +75,10 @@ function countdownTime(){
 	if(isExists('#clock')){
 		$('#clock').countdown('2018/01/01', function(event){
 			var $this = $(this).html(event.strftime(''
-				+ '<div class="time-sec"><span class="title">%D</span> days </div>'
-				+ '<div class="time-sec"><span class="title">%H</span> hours </div>'
-				+ '<div class="time-sec"><span class="title">%M</span> minutes </div>'
-				+ '<div class="time-sec"><span class="title">%S</span> seconds </div>'));
+				+ '<div class="time-sec"><span class="title">%D</span> dias </div>'
+				+ '<div class="time-sec"><span class="title">%H</span> horas </div>'
+				+ '<div class="time-sec"><span class="title">%M</span> minutos </div>'
+				+ '<div class="time-sec"><span class="title">%S</span> segundos </div>'));
 		});
 	}
 }

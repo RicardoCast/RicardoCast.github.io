@@ -70,12 +70,12 @@
         }
     }
 
-    var allUnits = ["Days", "Hours", "Minutes", "Seconds"];
+    var allUnits = ["Dias", "Horas", "Minutos", "Segundos"];
     var nextUnits = {
-        Seconds: "Minutes",
-        Minutes: "Hours",
-        Hours: "Days",
-        Days: "Years"
+        Seconds: "Minutos",
+        Minutes: "Horas",
+        Hours: "Dias",
+        Days: "Años"
     };
     var secondsIn = {
         Seconds: 1,
